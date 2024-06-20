@@ -1,0 +1,92 @@
+exercicio 01
+package basico1;
+
+import java.util.Scanner;
+
+public class exc01 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int numero = 0;	
+		System.out.print("digite o numero: ");
+		numero = input.nextInt();
+		{
+		if (numero < 0)
+			System.out.println("negativo");
+		else if (numero == 0)
+			System.out.println("neutro");
+		else
+			System.out.println("positivo");
+		
+		}
+	}
+}
+exercicio 02
+package basico1;
+
+import java.util.Scanner;
+
+public class exc02 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("digite o numero1: ");
+		int numero1 = input.nextInt();
+		System.out.print("digite o numero2: ");
+		int numero2 = input.nextInt();
+		System.out.print("digite o nemero3: ");
+		int numero3 = input.nextInt();
+		{
+		if (numero2 > numero3 && numero2 > numero1)
+			System.out.println("numero2 e o maior");
+		if (numero3 < numero1 && numero1 > numero2)
+			System.out.println("numero1 e o maior");
+		else if (numero1 < numero3 && numero3 > numero2)
+			System.out.println("numero3 e o maior");
+		else
+			System.out.println("numeros iguais");
+		
+		}
+	}
+}
+exercicio 03
+package basico1;
+
+import java.util.Scanner;
+
+public class exc03 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("informe o numero do mes: ");
+		int numero = input.nextInt();
+		if (numero == 1)
+			System.out.print("janeiro");
+		else if (numero == 2)
+			System.out.print("fevereiro");
+		else if (numero == 3)
+			System.out.print("março");
+		else if (numero == 4)
+			System.out.print("abril");
+		else if (numero == 5)
+			System.out.print("maio");
+		else if (numero == 6)
+			System.out.print("junho");
+		else if (numero == 7)
+			System.out.print("julho");
+		else if (numero == 8)
+			System.out.print("agosto");
+		else if (numero == 9)
+			System.out.print("setembro");
+		else if (numero == 10)
+			System.out.print("outubro");
+		else if (numero == 11)
+			System.out.print("novembro");
+		else if (numero == 12)
+			System.out.print("dezembro");
+		else
+			System.out.print("numero invalido!");
+			
+			
+	}
+}
